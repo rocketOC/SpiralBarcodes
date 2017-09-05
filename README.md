@@ -13,6 +13,8 @@ Find the average color of frames in a video. Use these averages to color an outp
 
 # Future
 1. OpenCV uses a round brush when drawing elliptical arcs. This makes the circular barcode tail overlap the head. Spiral mode is a temporary workaround. I want a proper closed circle with no overlap.
+2. I would like to map or animate a trail through an hsv cone or 3D color space. It's hard to understand the quantitative jumps in color that occur in the other barcode types. I think an animation through space would help reveal gradual and sudden transitions.
+3. A small tkinter GUI would be nice for those who are not used to dealing with command line interactions.
 
 # Notes
 1. If you sample too many frames when creating circular or spiral barcodes, the image will collapse to a solid circle at the center of the image.
