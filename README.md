@@ -21,7 +21,7 @@ Find the average color of frames in a video. Use these averages to color an outp
 4. Frame count meta data may be incorrect for some input videos. In that case you may have to manually set the dimensions of the output image blanks.
 
 # Examples
-[spiral based on Rick and Morty episode 101](https://i.imgur.com/QoitVc9.png)
-[x-locked based on Rick and Morty episode 101](https://i.imgur.com/c1CXf3J.png)
-[y-locked based on Rick and Morty episode 101](https://i.imgur.com/ZX2iC3p.png)
-[standard based on Rick and Morty episode 101](https://i.imgur.com/yMcUwkr.png)
+1. [spiral based on Rick and Morty episode 101](https://i.imgur.com/QoitVc9.png)
+2. [x-locked based on Rick and Morty episode 101](https://i.imgur.com/c1CXf3J.png)
+3. [y-locked based on Rick and Morty episode 101](https://i.imgur.com/ZX2iC3p.png)
+4. [standard based on Rick and Morty episode 101](https://i.imgur.com/yMcUwkr.png)
