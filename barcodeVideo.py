@@ -39,7 +39,7 @@ def barcode(vid_path,mod_frames,bar_height,pixels_per_frame,filename_output):
 	num_frames = int(vc.get(cv2.CAP_PROP_FRAME_COUNT))
 	bar_width = int(np.ceil(pixels_per_frame*np.floor(1+num_frames/mod_frames)))
 
-	print 'num frames:', num_frames, ' bar_width: ', bar_width, ' mod_frames: ', mod_frames
+	#print 'num frames:', num_frames, ' bar_width: ', bar_width, ' mod_frames: ', mod_frames
 	blank = np.zeros((bar_height,bar_width,3)) #blank for barcode
 	c=0
 	blanki = 0
@@ -204,7 +204,7 @@ def barcode_circle(vid_path,mod_frames,background,dim,thickness,radius,filename_
 			except IndexError:
 				print 'Index Error: blanki: ', blanki
 			blanki = blanki + 1
-			print(str(np.round((c*100.0)/num_frames,1)) + '%') #progress
+			#print(str(np.round((c*100.0)/num_frames,1)) + '%') #progress
 		rval, frame = vc.read()
 		c = c + 1
 	
@@ -241,7 +241,7 @@ def barcode_spiral(vid_path,mod_frames,background,dim,thickness,radius,filename_
 			except IndexError:
 				print 'Index Error: blanki: ', blanki
 			blanki = blanki + 1
-			print(str(np.round((c*100.0)/num_frames,1)) + '%') #progress
+			#print(str(np.round((c*100.0)/num_frames,1)) + '%') #progress
 		rval, frame = vc.read()
 		c = c + 1
 	
